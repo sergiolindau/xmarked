@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [              // start/end delimiter pairs for in-line math
+          ['$$', '$$']
+
+        ],
+        displayMath: [             // start/end delimiter pairs for display math
+          ['$$$', '$$$'],
+        ],
+      }
+    }
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/latest.js?tex-svg.js"></script>
+    
+  <link rel="stylesheet" href="default.min.css">
+  <script src="xmarked.min.js"></script>
+
+</head>
+
+<body onload="XMarked('content','README.md', true);">
+  <div id="content"></div>
+</body>
+
+</html>
